@@ -24,4 +24,3 @@ if __name__ == "__main__":
     mongo = Mongo()
     mongo.populate()
     print(mongo.count())
-
