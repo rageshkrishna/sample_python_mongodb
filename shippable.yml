@@ -20,4 +20,4 @@ script:
   - which python && coverage run --branch test.py
   - which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
 
-bulid_image: drydock/u14pytpls:prod
+build_image: drydock/u14pytpls:prod
